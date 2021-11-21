@@ -2,6 +2,10 @@ body {
     font-family: 'Montserrat';
 }
 
+.logo-image {
+    width: 50px;
+}
+
 #title {
     background-color: #ff4c68;
     color: #ffffff;
@@ -14,6 +18,12 @@ body {
 h1 {
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 2.7rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 2rem;
     line-height: 1.5;
 }
 
@@ -82,5 +92,24 @@ p {
 /* Testimonials Section */
 
 #testimonials {
-    
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff ;
+}
+
+.estimonials-image {
+    width: 10%;
+    margin: 20px;
+}
+
+#products {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.products-image {
+    width: 30%;
+    margin: 20px 20px 50px ;
 }
